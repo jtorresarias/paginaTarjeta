@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#arjea {
+  width: 400px;
+  height: 600px;
+  background-color: orangered;
+}
+
+#hamburguesa1 {
+  width: 400px;
+}
+
+#hamburguesa2 {
+  width: 100px;
+  border-radius: 50%;
+}
