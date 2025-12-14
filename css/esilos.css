@@ -3,10 +3,14 @@
   padding: 0;
 }
 
-#arjea {
+#tarjeta {
   width: 400px;
   height: 600px;
   background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #hamburguesa1 {
@@ -16,4 +20,27 @@
 #hamburguesa2 {
   width: 100px;
   border-radius: 50%;
+  position: relative;
+  bottom: 120px;
+}
+
+#boton {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  bottom: 100px;
+  font-family: fantasy;
+  color: brown;
+  font-weight: 700;
+  background-color: burlywood;
+  border-radius: 15px;
+  border: solid brown 3px;
+}
+
+#anuncio {
+  position: relative;
+  bottom: 100px;
+  font-family: fantasy;
+  font-weight: 700;
+  color: rgb(211, 163, 30);
 }
